@@ -22,11 +22,6 @@ tvOS 9.1 SDK
     make -j$(getconf _NPROCESSORS_ONLN)
     make -C target/binary-addons
 
-
-NOTE: if you only want to build specific addons you can specify like this:
-
-    make -C target/binary-addons ADDONS="pvr.hts pvr.dvblink"
-
 -----------------------------------------------------------------------------
 **3. How to compile**
 -----------------------------------------------------------------------------
