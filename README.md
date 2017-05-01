@@ -17,7 +17,7 @@ Xcode: 7.2.1
     cd $HOME/Kodi
     cd tools/depends
     ./bootstrap
-    ./configure --host=arm-apple-darwin --with-cpu=arm64 --with-platform=tvos
+    ./configure --host=arm-apple-darwin --with-platform=tvos
     make -j$(getconf _NPROCESSORS_ONLN)
     make -C target/binary-addons
 
