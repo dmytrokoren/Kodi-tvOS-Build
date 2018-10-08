@@ -7,8 +7,7 @@ Xcode: 9.2
 **1. Getting the source code**
 -----------------------------------------------------------------------------
     
-    cd $HOME
-    git clone --depth 1 -b yab git://github.com/Memphiz/xbmc.git Kodi
+    git clone --depth 1 -b yab git://github.com/Memphiz/xbmc.git kodi
 
 -----------------------------------------------------------------------------
 **2. Install Kodi build depends & binary addons**
