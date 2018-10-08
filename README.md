@@ -1,7 +1,7 @@
 -----------------------------------------------------------------------------
 ### Requirements: ###
 
-Xcode: 7.2.1
+Xcode: 9.2
 
 -----------------------------------------------------------------------------
 **1. Getting the source code**
@@ -14,10 +14,9 @@ Xcode: 7.2.1
 **2. Install Kodi build depends & binary addons**
 -----------------------------------------------------------------------------
     
-    cd $HOME/Kodi
-    cd tools/depends
+    cd $HOME/kodi/tools/depends
     ./bootstrap
-    ./configure --host=arm-apple-darwin --with-platform=tvos
+    ./configure --host=arm-apple-darwin --with-cpu=arm64 --with-platform=tvos --with-sdk=11.2
     make -j$(getconf _NPROCESSORS_ONLN)
     make -C target/binary-addons
 
